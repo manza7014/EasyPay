@@ -1,3 +1,4 @@
 install:
-  - FILE="-Dfile=jars/my-library.jar"
+  - FILE="-Dfile=./payment/libs/alipaysdk-15.8.00.201112210139.aar"
+  - FILE="-Dfile=./payment/libs/wechat-sdk-android-with-mta-1.0.2.jar"
   - mvn install:install-file $FILE -DgroupId=com.github.manza7014 -DartifactId=repo -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true
