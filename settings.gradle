@@ -1,0 +1,3 @@
+include ':payment'
+include ':app'
+rootProject.name = "EasyPay"
