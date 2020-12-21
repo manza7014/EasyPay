@@ -2,6 +2,7 @@ plugins {
     id 'com.android.library'
     id 'com.github.dcendents.android-maven'
     id 'maven-publish'
+    id 'com.kezong.fat-aar'
 }
 group='com.github.manza7014'
 
@@ -47,4 +48,5 @@ dependencies {
     api(name: 'alipaysdk-15.8.00.201112210139', ext: 'aar')
     //微信支付sdk
     api files('libs/wechat-sdk-android-with-mta-1.0.2.jar')
+    embed (name:'alipaysdk-15.8.00.201112210139', ext:'aar')
 }
