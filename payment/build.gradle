@@ -84,7 +84,6 @@ android {
         implementation 'androidx.appcompat:appcompat:1.2.0'
         implementation 'com.google.android.material:material:1.2.1'
         // 支付宝 SDK AAR 包所需的配置
-        api(name: 'alipaysdk-15.8.00.201112210139', ext: 'aar')
         //微信支付sdk
         api files('libs/wechat-sdk-android-with-mta-1.0.2.jar')
         embed(name: 'alipaysdk-15.8.00.201112210139', ext: 'aar')
