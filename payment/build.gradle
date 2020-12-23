@@ -47,8 +47,8 @@ android {
                     from components.release
 
                     // You can then customize attributes of the publication as shown below.
-                    groupId = 'com.manza'
-                    artifactId = 'easypay'
+                    groupId = 'com.github.manza7014'
+                    artifactId = 'payment'
                     version = '1.0.0'
                     pom.withXml {
                         Node pomNode = asNode()
